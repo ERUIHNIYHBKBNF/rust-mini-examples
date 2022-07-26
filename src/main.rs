@@ -1,3 +1,6 @@
 fn main() {
-    println!("Hello, world!");
+    let mut a = "Chino";
+    println!("Hello {}!", a);
+    a = "Kafuu Chino";
+    println!("Hello {}!", a);
 }
