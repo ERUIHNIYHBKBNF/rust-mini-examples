@@ -14,7 +14,7 @@ pub fn main() {
 
     let varchar: char = '😀';
     let str1: &str = "Hello,{}";
-    todo!("println!(str1, varchar);");
+    // TODO: println!(str1, varchar);
     println!("{}{{{}}}", str1, varchar); // Hello,{}{😀}
     let str2: String = str1.to_string() + varchar.to_string().as_str(); // &String::from(varchar)
     println!("{}", str2); // Hello,{}😀

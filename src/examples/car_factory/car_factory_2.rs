@@ -20,9 +20,11 @@ enum Transmission {
 }
 
 fn car_quality(miles: u32) -> (Age, u32) {
-    let quality: (Age, u32) = (Age::New, 0);
-
-    quality
+    if miles > 0 {
+        (Age::Old, miles)
+    } else {
+        (Age::New, 0)
+    }
 }
 
 fn car_factory(color: String, motor: Transmission, roof: bool, miles: u32) -> Car {
