@@ -43,3 +43,93 @@ fn main() {
 	visibility::main();
 	mod_example::main();
 }
+
+#[test]
+fn data_type() {
+	data_type::main();
+}
+
+#[test]
+fn control_flow() {
+	control_flow::main();
+}
+
+#[test]
+fn car_factory_1() {
+	car_factory_1::main();
+}
+
+#[test]
+fn car_factory_2() {
+	car_factory_2::main();
+}
+
+#[test]
+fn car_factory_3() {
+	car_factory_3::main();
+}
+
+#[test]
+fn car_factory_4() {
+	car_factory_4::main();
+}
+
+#[test]
+fn car_factory_5() {
+	car_factory_5::main();
+}
+
+#[test]
+fn error_handler() {
+	error_handler::main();
+}
+
+#[test]
+fn person_name() {
+	person_name::main();
+}
+
+#[test]
+fn read_file() {
+	read_file::main();
+}
+
+#[test]
+fn memory_management() {
+	memory_management::main();
+}
+
+#[test]
+fn copy_and_return() {
+	copy_and_return::main();
+}
+
+#[test]
+fn generic_types() {
+	generic_types::main();
+}
+
+#[test]
+fn generic_container() {
+	generic_container::main();
+}
+
+#[test]
+fn iterator() {
+	iterator::main();
+}
+
+#[test]
+fn authentication_mod() {
+	authentication_mod::main();
+}
+
+#[test]
+fn visibility() {
+	visibility::main();
+}
+
+#[test]
+fn mod_example() {
+	mod_example::main();
+}

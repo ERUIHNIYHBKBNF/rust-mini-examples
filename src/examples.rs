@@ -7,3 +7,4 @@ pub mod iterator;
 pub mod authentication_mod;
 pub mod visibility;
 pub mod mod_example;
+pub mod test_example;
