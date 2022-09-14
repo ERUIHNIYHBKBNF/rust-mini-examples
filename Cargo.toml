@@ -1,4 +1,6 @@
 [workspace]
 members = [
   "first-step",
+  "guessing_game",
 ]
+default-members = ["guessing_game"]
